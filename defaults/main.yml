@@ -70,6 +70,17 @@ mailserver_db_mysql_user: "maildbuser"
 mailserver_db_mysql_password: "maildbuser"
 mailserver_db_mysql_db: "mails"
 
+mailserver_mailman_db_host: "db.ch"
+mailserver_mailman_db_port: "5432"
+mailserver_mailman_db_name: "mailman"
+mailserver_mailman_db_user: "mailman"
+mailserver_mailman_db_password: changeme
+mailserver_mailman_ldap_user: "mailman"
+mailserver_mailman_route: "lmtp:127.0.0.1:8888"
+mailserver_people_api_host: "api.ch"
+mailserver_people_api_port: "6781"
+mailserver_people_api_key: changeme
+
 # Mailbox location
 mailserver_mailbox_dir: "/var/mail/boxes"
 mailserver_mailbox_attachement_dir: "/var/mail/attachments"

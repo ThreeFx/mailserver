@@ -1,0 +1,11 @@
+dbUrl=jdbc:mariadb://{{ mailserver_db_mysql_hosts|first }}:3306/{{ mailserver_db_mysql_db }}?user={{ mailserver_db_mysql_user }}&password={{mailserver_db_mysql_password }}
+
+mailmanDbUrl=jdbc:postgresql://{{ mailserver_mailman_db_host }}:{{ mailserver_mailman_db_port }}/{{ mailserver_mailman_db_name }}
+mailmanRoutingDestination={{ mailserver_mailman_route }}
+mailmanDbUser={{ mailserver_mailman_db_user }}
+mailmanDbPassword={{ mailserver_mailman_db_password }}
+mailmanUseraccount={{ mailserver_mailman_ldap_user }}
+
+peopleApiHost={{ mailserver_people_api_host }}
+peopleApiPort={{ mailserver_people_api_port }}
+peopleApiKey={{ mailserver_people_api_key }}
