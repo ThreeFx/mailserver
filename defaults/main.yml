@@ -5,6 +5,11 @@
 mailserver_behind_proxy: True
 mailserver_proxy_name: 192.33.91.97
 mailserver_proxy_port: 26
+
+# Allow configuration of the dovecot process limit (# of users logged in
+# simultaneously)
+mailserver_dovecot_process_limit: 100
+
 # Which host does this thing run on?
 mailserver_hostname: "mail.test.example.com"
 # How is the primary (e.g. where each user automatically gets user@domain)
