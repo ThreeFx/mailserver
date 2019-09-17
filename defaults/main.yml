@@ -12,6 +12,8 @@ mailserver_connection_rate_limit: 30
 mailserver_connection_count_limit: 10
 mailserver_recipient_limit: 10
 
+mailserver_dovecot_process_limit: 100
+
 # Which host does this thing run on?
 mailserver_hostname: "mail.test.example.com"
 # How is the primary (e.g. where each user automatically gets user@domain)
